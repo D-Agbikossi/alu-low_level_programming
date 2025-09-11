@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Betty Check Current File",
+            "type": "shell",
+            "command": "betty-style",
+            "args": ["${file}"],
+            "group": "build"
+        },
+        {
+            "label": "Betty Doc Check Current File",
+            "type": "shell",
+            "command": "betty-doc",
+            "args": ["${file}"],
+            "group": "build"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "betty.styleCheck": true,
+    "betty.docCheck": true,
+    "betty.executablePath": "/path/to/betty",
+    "[c]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.rulers": [80]
+    }
+}
